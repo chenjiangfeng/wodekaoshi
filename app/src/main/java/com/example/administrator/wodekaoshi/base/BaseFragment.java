@@ -46,7 +46,7 @@ public abstract class BaseFragment extends Fragment {
         initdata();
     }
 
-    protected abstract void initdata();
+    public abstract void initdata();
     /**
      *
      * @param hidden false：当前类显示
@@ -64,5 +64,5 @@ public abstract class BaseFragment extends Fragment {
      * 当子类要刷新数据的时候重写该方法
      */
 
-    protected abstract void onRefrshData();
+    public abstract void onRefrshData();
 }
